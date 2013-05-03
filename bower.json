@@ -1,0 +1,9 @@
+{
+  "name": "fonzie-fractional-widths",
+  "description": "Generate 1ofx classes for fractional widths",
+  "author": "Anthony Short",
+  "main": "index.scss",
+  "version": "0.1.0",
+  "dependencies": {},
+  "license": "MIT"
+}

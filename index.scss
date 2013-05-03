@@ -1,0 +1,7 @@
+@mixin fz-FractionalWidths($columns, $prefix: "fz-") {
+  @for $i from 1 through $columns {
+    .#{$prefix}#{$i}of#{$columns} {
+      width: percentage($i / $columns);
+    }
+  }
+}
